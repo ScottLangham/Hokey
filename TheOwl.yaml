@@ -1,0 +1,7 @@
+repos:
+- owner: ScottLangham
+  repo: Hokey
+  alias: Hokey
+- owner: ScottLangham
+  repo: Bingo
+  alias: Bingo
