@@ -5,3 +5,6 @@ repos:
 - owner: ScottLangham
   repo: Bingo
   alias: Bingo
+- owner: ScottNorth9
+  repo: Alpha
+  alias: Alpha
