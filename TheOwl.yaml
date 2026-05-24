@@ -8,3 +8,22 @@ repos:
 - owner: ScottNorth9
   repo: Alpha
   alias: Alpha
+
+rules:
+- label: Defaults
+  alerts:
+    attention: on
+    unread: on
+    taskbar: on
+    toast: on
+- repos:
+  - ScottLangham/Bingo
+  alerts:
+    attention: off
+    unread: off
+    taskbar: on
+    toast: off
+- authors:
+  - '@me'
+  alerts:
+    attention: on
