@@ -1,6 +1,6 @@
 name: dummy-slow-check
 
-# Test fixture for TheOwl: a check that stays in progress for a few minutes, then passes.
+# Test fixture for TheOwl: a check that stays in progress for about two minutes, then passes.
 on:
   pull_request:
 
@@ -8,4 +8,4 @@ jobs:
   dummy-slow-check:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 240
+      - run: sleep 120
