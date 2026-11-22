@@ -1,0 +1,11 @@
+name: dummy-check
+
+# Test fixture for TheOwl: a no-op check.
+on:
+  pull_request:
+
+jobs:
+  dummy-check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "no-op"
