@@ -1,0 +1,1 @@
+Dummy file for 0278 stack test, part 1
